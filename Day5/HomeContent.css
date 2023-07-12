@@ -1,0 +1,88 @@
+/* video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  } */
+  
+  .hero-container {
+    /* background: url('https://media.istockphoto.com/id/1012323872/photo/medical-insurance-concept-with-family-and-stethoscope-on-wooden-desk.jpg?s=612x612&w=0&k=20&c=fBRwbx_iRR50Kr4uw_ofRrq7nRryP_BeCm5doXpX2Sc=')  */
+    /* background: url('https://img.freepik.com/premium-photo/red-heart-with-stethoscope-heart-health-insurance-your-health-concept-annual-health-check_545582-989.jpg') */
+
+    /* background: url('https://bsmedia.business-standard.com/_media/bs/img/article/2019-07/02/full/1562088477-3261.jpg?im=FeatureCrop,size=(620,464)') */
+    /* background: url('https://w0.peakpx.com/wallpaper/375/273/HD-wallpaper-family-health-insurance-3d-icon-white-background-3d-symbols-family-health-insurance-insurance-icons-3d-icons-family-health-insurance-sign-insurance-3d-icons.jpg') */
+    
+    /* background: url('https://www.suretiimf.com/wp-content/uploads/2020/06/Health-Insurance-1920x1080-1.jpg')
+    center center/cover no-repeat; */
+    /* background-color: rgba(1, 1, 1, 0.5); */
+    /* background-color: rgba(1, 1, 1, 0.5); */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  /* .layer{
+    background-color: black;
+    opacity: 0.2;
+  } */
+  .hero-container > h1 {
+    color: rgb(150, 35, 35);
+    font-size: 100px;
+    margin-top: -100px;
+    /* color: #fff;
+    font-size: 100px;
+    margin-top: -100px; */
+  }
+  
+  .hero-container > p {
+    margin-top: 8px;
+    color: rgb(228, 82, 82);
+    /* color: #fff; */
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .hero-btns {
+    margin-top: 32px;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
